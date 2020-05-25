@@ -3,7 +3,10 @@ class Solution(object):
         """Count the number of 1 bits
         Naive implementation to count the number of 1 bits with Hamming Weight. It is
         naive because it needs 5 * 4 = 20 arithmetic operations. Refer:
-        https://en.wikipedia.org/wiki/Hamming_weight
+        https://en.wikipedia.org/wiki/Hamming_weight.
+
+        It relates to Problem 338 to count the number of 1's of integer i in [0, num].
+        Then return them as an array.
 
         :type n: int
         :rtype: int
