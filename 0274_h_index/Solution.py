@@ -24,6 +24,12 @@ class Solution(object):
         size = len(citations)
 
         def reversed_quick_sort(citations, start, end):
+            """Implement reversed quick sort.
+            :param citations: array of citations
+            :param start: start index of citations
+            :param end: end index of citations
+            :return: Nothing to return but citations array is reversely sorted.
+            """
             if start >= end:
                 return
 
