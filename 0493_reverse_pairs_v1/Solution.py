@@ -45,9 +45,6 @@ class Solution(object):
                 # Index for right sub-array
                 j = middle + 1
 
-                # Store merged array.
-                merged_array = []
-
                 # Current count of important reverse pairs.
                 important_reverse_pair_count = 0
 
